@@ -1,0 +1,51 @@
+#button{
+    cursor: pointer;
+    border: solid 1.5px #11293d;
+    text-align: center;
+    color: #11293d;
+    font-weight: bold;
+    background-color: #ffd700;
+    outline: transparent;
+    padding: 10px 7px;
+    transition: .2s;
+}
+#button:hover{
+    transition:.2s;
+    background-color:#11293d;
+    color: #ffd700;
+}
+.modal-none{
+    pointer-events: none;
+    opacity: 0;
+    transform: .5s;
+}
+.modal{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    transition: .5s;
+}
+.modal-info{
+    position: relative;
+    color:gold;
+    background-color: #11293d;
+    width: 290px;
+    height: 250px;
+    margin: 150px auto;
+}
+.modal-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-close{
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    cursor: pointer;
+}
